@@ -1,4 +1,4 @@
-FROM node:10
+FROM public.ecr.aws/bitnami/node:14.21.1
 
 # Create app directory
 WORKDIR /usr/app
